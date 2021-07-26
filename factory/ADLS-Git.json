@@ -1,0 +1,9 @@
+{
+	"name": "ADLS-Git",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5875d459-80c8-4db5-908c-37d94257668e",
+		"tenantId": "c5177141-4db9-4c0f-aad2-2d4930ceafbd"
+	}
+}
