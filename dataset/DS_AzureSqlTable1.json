@@ -1,0 +1,26 @@
+{
+	"name": "DS_AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Index",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "MovieTitle",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "topmovies"
+		}
+	}
+}
